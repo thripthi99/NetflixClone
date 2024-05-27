@@ -1,0 +1,51 @@
+.Header{
+    display: flex;
+    width: 92%;
+    margin: 0 auto;
+    align-items: center;
+    height: 90px;
+    /* margin-top: 30px; */
+}
+
+ .Header img{
+    /* margin-left: 40px; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 160px;
+    height: 80px;
+    margin-top: 20px;
+} 
+
+
+
+.Header ul{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    /* margin-right: 50px; */
+    /* padding: 20px; */
+}
+
+.Header ul li a{
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.Header ul li .english{
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #aaa;
+    /* height: 35px;
+    width: 100px; */
+    padding: 5px 10px;
+    margin-right: 20px;
+}
+
+.Header ul li .signin{
+    color:#fff;
+    background-color: #E50914;
+    padding: 8px 10px;
+}

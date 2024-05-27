@@ -1,0 +1,25 @@
+#sec4{
+    width: 100%;
+    height: 450px;
+    background: black;
+    margin-top: 10px;
+    color: #fff;
+display: flex;
+}
+#sec4left{
+    flex-basis: 50%;
+    padding-left: 200px;
+    margin-top: 180px;
+
+}
+#sec4left h1{
+    font-size: 44px;
+}
+#sec4left h3{
+    font-size: 25px;
+    margin-top: 25px;
+    line-height: 1.2;
+}
+#sec4right{
+    flex-basis: 50%;
+}
